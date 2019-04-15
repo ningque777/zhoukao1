@@ -10,6 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "gulp": "^3.6.2"
+    "gulp": "^3.6.2",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-image": "^4.4.1",
+    "gulp-uglify": "^3.0.2"
   }
 }
