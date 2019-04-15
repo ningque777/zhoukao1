@@ -22,3 +22,7 @@ gulp.task('image',()=>{
     .pipe(image())
     .pipe(dest(dist))
 })
+//监听自动刷新
+gulp.task('default',['css','js','image'],()=>{
+    gulp.watch('css/*.css',['css1'])
+})
